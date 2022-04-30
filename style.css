@@ -1,0 +1,65 @@
+.profile{
+    width: 175px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+#Welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: aquamarine;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(rgb(236, 110, 110) 0%,rgb(117, 117, 248));
+    display: table;
+    width: 100%;
+    z-index: 9;
+
+}
+.idk{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.line {   
+     height: 6px;    background-color: #000;    width: 70px;    margin: 8px auto;}
+
+.menu{
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+}
+
+.link{
+    float: left;
+    color: red;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: fantasy;
+    cursor: pointer;
+}
+
+.link:hover{
+    background-color: blanchedalmond;
+}
+     
+#spantag{
+    font-family: 'Tapestry', cursive;
+    font-size: 30px;
+}
